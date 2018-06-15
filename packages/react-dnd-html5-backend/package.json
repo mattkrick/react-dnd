@@ -1,6 +1,6 @@
 {
 	"name": "@mattkrick/react-dnd-html5-backend",
-	"version": "3.0.2",
+	"version": "3.0.3",
 	"description": "HTML5 backend for React DnD",
 	"main": "lib/index.js",
 	"types": "lib/index.d.ts",
@@ -31,8 +31,8 @@
 		"webpack": "^4.6.0"
 	},
 	"dependencies": {
-		"autobind-decorator": "^2.1.0",
 		"@mattkrick/dnd-core": "^3.0.2",
+		"autobind-decorator": "^2.1.0",
 		"lodash": "^4.2.0",
 		"shallowequal": "^1.0.2"
 	}
