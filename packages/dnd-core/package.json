@@ -1,5 +1,5 @@
 {
-	"name": "dnd-core",
+	"name": "@mattkrick/dnd-core",
 	"version": "3.0.2",
 	"description": "Drag and drop sans the GUI",
 	"license": "BSD-3-Clause",
