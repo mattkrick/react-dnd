@@ -1,7 +1,7 @@
 import React, { Component, ComponentClass, StatelessComponent } from 'react'
 import invariant from 'invariant'
 import isPlainObject from 'lodash/isPlainObject'
-import { Backend, SourceType } from 'dnd-core'
+import { Backend, SourceType } from '@mattkrick/dnd-core'
 import {
 	DragSourceSpec,
 	DragSourceCollector,

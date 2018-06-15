@@ -1,7 +1,7 @@
 import React, { StatelessComponent, Component, ComponentClass } from 'react'
 import invariant from 'invariant'
 import isPlainObject from 'lodash/isPlainObject'
-import { Backend, Identifier, DragDropMonitor, TargetType } from 'dnd-core'
+import { Backend, Identifier, DragDropMonitor, TargetType } from '@mattkrick/dnd-core'
 import {
 	DropTargetSpec,
 	DndOptions,

@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import isPlainObject from 'lodash/isPlainObject'
 import invariant from 'invariant'
 import hoistStatics from 'hoist-non-react-statics'
-import { DragDropManager, Identifier } from 'dnd-core'
+import { DragDropManager, Identifier } from '@mattkrick/dnd-core'
 import { DndComponentClass, DndComponent } from './interfaces'
 
 const shallowEqual = require('shallowequal')

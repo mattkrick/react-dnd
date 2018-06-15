@@ -1,5 +1,5 @@
 import HTML5Backend from '../HTML5Backend'
-import { DragDropManager } from 'dnd-core'
+import { DragDropManager } from '@mattkrick/dnd-core'
 import { HTML5BackendContext } from '../interfaces'
 
 describe('The HTML5 Backend', () => {

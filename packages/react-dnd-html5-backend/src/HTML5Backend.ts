@@ -7,7 +7,7 @@ import {
 	DragDropMonitor,
 	HandlerRegistry,
 	XYCoord,
-} from 'dnd-core'
+} from '@mattkrick/dnd-core'
 import EnterLeaveCounter from './EnterLeaveCounter'
 import { isFirefox } from './BrowserDetector'
 import {

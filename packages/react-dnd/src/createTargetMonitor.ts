@@ -5,7 +5,7 @@ import {
 	DragDropMonitor,
 	XYCoord,
 	DropTarget,
-} from 'dnd-core'
+} from '@mattkrick/dnd-core'
 import { DropTargetMonitor } from './interfaces'
 
 let isCallingCanDrop = false

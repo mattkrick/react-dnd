@@ -4,7 +4,7 @@ import hoistStatics from 'hoist-non-react-statics'
 import isPlainObject from 'lodash/isPlainObject'
 import invariant from 'invariant'
 import checkDecoratorArguments from './utils/checkDecoratorArguments'
-import { DragDropManager, Unsubscribe } from 'dnd-core'
+import { DragDropManager, Unsubscribe } from '@mattkrick/dnd-core'
 import { DragLayerCollector, DndOptions, DndComponentClass } from './interfaces'
 
 const shallowEqual = require('shallowequal')

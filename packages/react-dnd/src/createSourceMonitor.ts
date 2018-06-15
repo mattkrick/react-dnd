@@ -7,7 +7,7 @@ import {
 	XYCoord,
 	Identifier,
 	DragSource,
-} from 'dnd-core'
+} from '@mattkrick/dnd-core'
 import { DragSourceMonitor } from './interfaces'
 
 let isCallingCanDrag = false

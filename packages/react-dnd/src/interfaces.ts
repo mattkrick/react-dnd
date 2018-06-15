@@ -1,5 +1,5 @@
 import React, { StatelessComponent } from 'react'
-import { XYCoord, DragDropMonitor, Identifier, DragDropManager } from 'dnd-core'
+import { XYCoord, DragDropMonitor, Identifier, DragDropManager } from '@mattkrick/dnd-core'
 
 export { XYCoord }
 

@@ -1,4 +1,4 @@
-import { DragDropManager, DropTarget, Unsubscribe } from 'dnd-core'
+import { DragDropManager, DropTarget, Unsubscribe } from '@mattkrick/dnd-core'
 
 export default function registerTarget<Context>(
 	type: string,

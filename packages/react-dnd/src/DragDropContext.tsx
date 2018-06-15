@@ -5,7 +5,7 @@ import {
 	Backend,
 	BackendFactory,
 	createDragDropManager,
-} from 'dnd-core'
+} from '@mattkrick/dnd-core'
 import invariant from 'invariant'
 import hoistStatics from 'hoist-non-react-statics'
 import checkDecoratorArguments from './utils/checkDecoratorArguments'

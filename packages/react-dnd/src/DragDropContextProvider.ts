@@ -1,6 +1,6 @@
 import { Component, Children, ReactElement } from 'react'
 import PropTypes from 'prop-types'
-import { Backend, BackendFactory } from 'dnd-core'
+import { Backend, BackendFactory } from '@mattkrick/dnd-core'
 import { CHILD_CONTEXT_TYPES, createChildContext } from './DragDropContext'
 
 /**

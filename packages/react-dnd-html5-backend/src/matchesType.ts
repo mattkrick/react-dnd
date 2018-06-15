@@ -2,7 +2,7 @@
 // HACK: copied from dnd-core. duplicating here to fix a CI issue
 //
 import isArray from 'lodash/isArray'
-import { Identifier, SourceType, TargetType } from 'dnd-core'
+import { Identifier, SourceType, TargetType } from '@mattkrick/dnd-core'
 
 export default function matchesType(
 	targetType: TargetType | null,

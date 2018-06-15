@@ -1,6 +1,6 @@
 import invariant from 'invariant'
 import isPlainObject from 'lodash/isPlainObject'
-import { DragDropMonitor, DropTarget } from 'dnd-core'
+import { DragDropMonitor, DropTarget } from '@mattkrick/dnd-core'
 import { MemoVoidArrayIterator } from 'lodash'
 import { DropTargetSpec, DropTargetMonitor } from './interfaces'
 

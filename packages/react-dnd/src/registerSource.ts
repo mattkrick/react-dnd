@@ -1,4 +1,4 @@
-import { DragDropManager, DragSource, Unsubscribe } from 'dnd-core'
+import { DragDropManager, DragSource, Unsubscribe } from '@mattkrick/dnd-core'
 
 export default function registerSource<Context>(
 	type: string,

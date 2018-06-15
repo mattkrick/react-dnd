@@ -1,7 +1,7 @@
 import { isSafari, isFirefox } from './BrowserDetector'
 import MonotonicInterpolant from './MonotonicInterpolant'
 import { DOMElement, ReactNode } from 'react'
-import { XYCoord } from 'dnd-core'
+import { XYCoord } from '@mattkrick/dnd-core'
 
 const ELEMENT_NODE = 1
 

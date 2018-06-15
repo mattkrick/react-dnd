@@ -1,6 +1,6 @@
 import invariant from 'invariant'
 import isPlainObject from 'lodash/isPlainObject'
-import { DragSource, DragDropMonitor } from 'dnd-core'
+import { DragSource, DragDropMonitor } from '@mattkrick/dnd-core'
 import { DragSourceSpec, DragSourceMonitor } from './interfaces'
 import { ComponentClass } from 'react'
 
