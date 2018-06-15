@@ -1,5 +1,5 @@
 {
-	"name": "react-dnd",
+	"name": "@mattkrick/react-dnd",
 	"version": "3.0.2",
 	"description": "Drag and Drop for React",
 	"main": "lib/index.js",
@@ -19,7 +19,7 @@
 	},
 	"dependencies": {
 		"disposables": "^1.0.1",
-		"dnd-core": "^3.0.2",
+		"@mattkrick/dnd-core": "^3.0.2",
 		"hoist-non-react-statics": "^2.5.0",
 		"invariant": "^2.1.0",
 		"lodash": "^4.2.0",
