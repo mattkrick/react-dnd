@@ -1,0 +1,39 @@
+{
+	"name": "react-dnd-html5-backend",
+	"version": "7.0.2",
+	"description": "HTML5 backend for React DnD",
+	"main": "lib/cjs/index.js",
+	"types": "lib/cjs/index.d.ts",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/react-dnd/react-dnd.git"
+	},
+	"scripts": {
+		"clean": "rimraf lib dist",
+		"transpile:cjs": "tsc -b tsconfig.cjs.json",
+		"transpile:esm": "tsc -b tsconfig.esm.json",
+		"transpile": "run-p transpile:*",
+		"bundle:unmin": "webpack --mode development --output-filename=ReactDnDHTML5Backend.js",
+		"bundle:min": "webpack --mode production --output-filename=ReactDnDHTML5Backend.min.js",
+		"build": "run-p bundle:* transpile",
+		"test": "run-s clean build",
+		"watch": "tsc -w --preserveWatchOutput",
+		"start": "npm run watch"
+	},
+	"dependencies": {
+    "dnd-core": "https://github.com/mattkrick/react-dnd/tarball/ac917d16a85f29ed14c20b2d8c4f2f8dd094039c",
+		"lodash": "^4.17.11"
+	},
+	"devDependencies": {
+		"@types/react": "^16.4.18",
+		"npm-run-all": "^4.1.5",
+		"react": "^16.6.0",
+		"react-dnd-test-backend": "^7.0.2",
+		"rimraf": "^2.6.2",
+		"ts-loader": "^5.3.0",
+		"typescript": "^3.1.6",
+		"webpack": "^4.23.1",
+		"webpack-cli": "^3.1.2"
+	}
+}
